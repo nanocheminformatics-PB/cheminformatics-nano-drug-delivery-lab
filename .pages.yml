@@ -1,0 +1,86 @@
+media:
+  input: images
+  output: /images
+content:
+  - name: research
+    label: Research themes
+    type: file
+    path: data/research.json
+    format: json
+    fields:
+      - name: items
+        label: Research themes
+        type: object
+        list: true
+        fields:
+          - { name: number, label: Number, type: string }
+          - { name: icon, label: Icon character, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+  - name: projects
+    label: Projects
+    type: file
+    path: data/projects.json
+    format: json
+    fields:
+      - name: items
+        label: Projects
+        type: object
+        list: true
+        fields:
+          - { name: tag, label: Category tag, type: string }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: theme, label: Artwork theme, type: string }
+          - { name: status, label: Link/status label, type: string }
+  - name: publications
+    label: Publications
+    type: file
+    path: data/publications.json
+    format: json
+    fields:
+      - name: items
+        label: Publication records
+        type: object
+        list: true
+        fields:
+          - { name: year, label: Year, type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: authors, label: Authors, type: string, required: true }
+          - { name: journal, label: Journal and citation, type: string, required: true }
+          - { name: doi, label: DOI (full URL or DOI string), type: string }
+          - { name: url, label: Publisher URL, type: string }
+          - { name: placeholder, label: Placeholder record, type: boolean }
+  - name: team
+    label: Team
+    type: file
+    path: data/team.json
+    format: json
+    fields:
+      - name: items
+        label: Team members
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - { name: role, label: Role / designation, type: string, required: true }
+          - { name: bio, label: Biography, type: text }
+          - { name: initials, label: Avatar initials, type: string }
+          - { name: profile, label: Official profile URL, type: string }
+          - { name: placeholder, label: Placeholder profile, type: boolean }
+  - name: news
+    label: News
+    type: file
+    path: data/news.json
+    format: json
+    fields:
+      - name: items
+        label: News items
+        type: object
+        list: true
+        fields:
+          - { name: date, label: Date (YYYY-MM-DD), type: string, required: true }
+          - { name: title, label: Title, type: string, required: true }
+          - { name: description, label: Description, type: text, required: true }
+          - { name: url, label: Related URL, type: string }
+          - { name: placeholder, label: Placeholder item, type: boolean }
