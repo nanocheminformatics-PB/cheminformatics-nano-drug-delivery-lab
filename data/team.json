@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "name": "Principal Investigator",
+      "role": "Faculty / Lab Head",
+      "bio": "Replace with approved name, designation, research interests and official profile link.",
+      "initials": "PI",
+      "placeholder": true
+    },
+    {
+      "name": "Research Scholar",
+      "role": "PhD / Project Researcher",
+      "bio": "Replace with approved biography, research focus and institutional contact.",
+      "initials": "RS",
+      "placeholder": true
+    },
+    {
+      "name": "Student Researcher",
+      "role": "M.Sc. / Project Student",
+      "bio": "Replace with approved biography and research interests.",
+      "initials": "SR",
+      "placeholder": true
+    }
+  ]
+}

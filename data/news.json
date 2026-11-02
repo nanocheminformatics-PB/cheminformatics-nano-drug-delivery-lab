@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "date": "YYYY-MM-DD",
+      "title": "Add a laboratory announcement",
+      "description": "Share a verified publication, conference presentation, project milestone or student opportunity.",
+      "placeholder": true
+    }
+  ]
+}

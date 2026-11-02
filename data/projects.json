@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "tag": "COMPUTATIONAL DISCOVERY",
+      "title": "Structure-based virtual screening",
+      "description": "A project area for screening candidate molecules against a selected biomedical target. Add validated target details, methods and outcomes.",
+      "theme": "visual-1",
+      "status": "Project summary to be added"
+    },
+    {
+      "tag": "NANOFORMULATION",
+      "title": "Nanomaterial-based drug delivery",
+      "description": "A project area for studying formulation design, drug loading, release profiles and relevant biomedical applications.",
+      "theme": "visual-2",
+      "status": "Project summary to be added"
+    },
+    {
+      "tag": "CONJUGATE CHEMISTRY",
+      "title": "Drug–drug conjugate development",
+      "description": "A project area for conjugate design, synthetic route development, analytical confirmation and biological evaluation.",
+      "theme": "visual-3",
+      "status": "Project summary to be added"
+    }
+  ]
+}

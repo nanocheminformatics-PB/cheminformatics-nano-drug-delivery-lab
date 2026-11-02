@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "number": "01",
+      "icon": "⌘",
+      "title": "Computational drug discovery",
+      "description": "Structure-based virtual screening, molecular docking, molecular dynamics and computational evaluation of candidate compounds."
+    },
+    {
+      "number": "02",
+      "icon": "⌬",
+      "title": "Cheminformatics & AI/ML",
+      "description": "Chemical representations, molecular descriptors, predictive modelling and data-guided prioritization of compounds."
+    },
+    {
+      "number": "03",
+      "icon": "◉",
+      "title": "Nano drug delivery",
+      "description": "Nanomaterial-enabled delivery strategies, formulation concepts, drug loading and release evaluation."
+    },
+    {
+      "number": "04",
+      "icon": "⚗",
+      "title": "Drug–drug conjugates",
+      "description": "Design and synthesis of conjugated therapeutic candidates, analytical characterization and biological evaluation."
+    },
+    {
+      "number": "05",
+      "icon": "⌁",
+      "title": "Computational chemistry",
+      "description": "Quantum-chemical calculations, molecular properties, structure–activity relationships and mechanistic analysis."
+    }
+  ]
+}

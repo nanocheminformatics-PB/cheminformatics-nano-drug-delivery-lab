@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "year": "YEAR",
+      "title": "Add a verified publication title here",
+      "authors": "Author names as published",
+      "journal": "Journal name · Volume · Pages (replace with verified citation)",
+      "doi": "",
+      "url": "",
+      "placeholder": true
+    }
+  ]
+}
